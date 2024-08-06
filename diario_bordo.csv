@@ -1,0 +1,84 @@
+texto,id,dataHora,fk_Aluno_id
+Hoje aprendemos a inserir dados no mysql,4,2024-07-31 08:00:00,1
+Hoje aprendemos a inserir dados na tabela no banco de dados e fazer select utilizando a clausula join para unir 2 tabelas distintas.,5,2024-07-31 08:00:00,156
+Início de um novo projeto com entusiasmo.,6,2024-08-06 08:30:00,167
+Reunião produtiva com a equipe sobre o andamento das tarefas.,7,2024-08-06 09:15:00,178
+Conclusão da análise dos dados e preparação do relatório.,8,2024-08-06 10:00:00,189
+Discussão sobre novas estratégias de marketing.,9,2024-08-06 11:20:00,195
+Revisão do material didático para a próxima aula.,10,2024-08-06 13:05:00,202
+Preparação para a apresentação do projeto final.,11,2024-08-06 14:45:00,210
+Análise dos feedbacks recebidos na última reunião.,12,2024-08-06 16:00:00,220
+Estudo aprofundado sobre novas tecnologias.,13,2024-08-06 17:30:00,234
+Planejamento das atividades para a próxima semana.,14,2024-08-06 19:00:00,245
+Sessão de brainstorming para o novo projeto.,15,2024-08-07 08:45:00,156
+Reunião com o cliente para definição de requisitos.,16,2024-08-07 09:30:00,167
+Análise de mercado para o novo produto.,17,2024-08-07 10:15:00,178
+Desenvolvimento de protótipos para o projeto.,18,2024-08-07 11:00:00,189
+Revisão e ajustes no plano de marketing.,19,2024-08-07 12:30:00,195
+Preparação de slides para a reunião com investidores.,20,2024-08-07 14:00:00,202
+Desenvolvimento de um novo módulo para o software.,21,2024-08-07 15:45:00,210
+Avaliação dos riscos do projeto atual.,22,2024-08-07 17:30:00,220
+Estudo sobre tendências de mercado.,23,2024-08-07 19:00:00,234
+Ajustes finais na apresentação para o próximo evento.,24,2024-08-08 08:15:00,245
+Reunião para definir as metas do próximo trimestre.,25,2024-08-08 09:00:00,156
+Revisão do cronograma de atividades.,26,2024-08-08 10:30:00,167
+Análise dos resultados da última campanha.,27,2024-08-08 11:15:00,178
+Planejamento das tarefas para a equipe de desenvolvimento.,28,2024-08-08 13:00:00,189
+Definição das prioridades para o próximo mês.,29,2024-08-08 14:45:00,195
+Preparação para a conferência do setor.,30,2024-08-08 16:00:00,202
+Revisão dos procedimentos internos da empresa.,31,2024-08-08 17:30:00,210
+Planejamento da próxima etapa do projeto.,32,2024-08-08 19:00:00,220
+Sessão de feedback com a equipe de projeto.,33,2024-08-09 08:30:00,234
+Desenvolvimento de novos protótipos para teste.,34,2024-08-09 09:15:00,245
+Reunião com parceiros para revisão de contrato.,35,2024-08-09 10:00:00,156
+Revisão dos objetivos da campanha publicitária.,36,2024-08-09 11:20:00,167
+Preparação para a visita de stakeholders.,37,2024-08-09 13:05:00,178
+Estudo sobre novas metodologias de trabalho.,38,2024-08-09 14:45:00,189
+Reunião para definição de estratégias de vendas.,39,2024-08-09 16:00:00,195
+Desenvolvimento de um novo módulo de software.,40,2024-08-09 17:30:00,202
+Planejamento da próxima reunião de equipe.,41,2024-08-09 19:00:00,210
+Revisão do plano de ação para o próximo trimestre.,42,2024-08-10 08:45:00,220
+Preparação do material para o workshop.,43,2024-08-10 09:30:00,234
+Análise dos indicadores de desempenho.,44,2024-08-10 10:15:00,245
+Desenvolvimento de estratégias para melhorar a eficiência.,45,2024-08-10 11:00:00,156
+Reunião para revisão de políticas internas.,46,2024-08-10 12:30:00,167
+Preparação para a apresentação de resultados.,47,2024-08-10 14:00:00,178
+Planejamento de novos objetivos para o próximo mês.,48,2024-08-10 15:45:00,189
+A aula de hoje foi muito difícil de entender.,49,2024-08-10 17:30:00,195
+O material didático fornecido foi insuficiente.,50,2024-08-10 19:00:00,202
+A metodologia utilizada não está ajudando no aprendizado.,51,2024-08-11 08:15:00,210
+As aulas estão sendo muito rápidas e difíceis de acompanhar.,52,2024-08-11 09:00:00,220
+Não há tempo suficiente para revisar o conteúdo durante a aula.,53,2024-08-11 10:30:00,234
+Os exemplos usados na aula não são claros.,54,2024-08-11 11:15:00,245
+A aula de hoje foi muito desorganizada.,55,2024-08-11 13:00:00,156
+O professor não respondeu às perguntas dos alunos.,56,2024-08-11 14:45:00,167
+Não entendi a abordagem usada na aula de hoje.,57,2024-08-11 16:00:00,178
+O ritmo da aula estava muito acelerado.,58,2024-08-11 17:30:00,189
+A aula não está acompanhando o material do livro.,59,2024-08-11 19:00:00,195
+A explicação dos conceitos foi muito superficial.,60,2024-08-12 08:45:00,202
+A aula de hoje foi muito teórica e pouco prática.,61,2024-08-12 09:30:00,210
+Faltou clareza nas instruções dadas pelo professor.,62,2024-08-12 10:15:00,220
+As atividades propostas não ajudam no entendimento da matéria.,63,2024-08-12 11:00:00,234
+O tempo dedicado à revisão dos tópicos foi insuficiente.,64,2024-08-12 12:30:00,245
+O conteúdo da aula foi muito complexo sem explicação adequada.,65,2024-08-12 14:00:00,156
+Não houve tempo para discussão dos pontos mais difíceis.,66,2024-08-12 15:45:00,167
+A aula foi muito rápida e não consegui acompanhar tudo.,67,2024-08-12 17:30:00,178
+O professor não utilizou exemplos práticos suficientes.,68,2024-08-12 19:00:00,189
+As explicações não estavam claras e precisas.,69,2024-08-13 08:15:00,195
+A aula não contemplou todos os tópicos prometidos.,70,2024-08-13 09:00:00,202
+O ritmo da aula foi inconsistente e confuso.,71,2024-08-13 10:30:00,210
+Não houve tempo suficiente para realizar os exercícios.,72,2024-08-13 11:15:00,220
+As atividades propostas foram desorganizadas e pouco úteis.,73,2024-08-13 13:00:00,234
+Os conceitos abordados foram muito avançados sem pré-requisitos.,74,2024-08-13 14:45:00,245
+O professor não fez uma revisão adequada dos tópicos anteriores.,75,2024-08-13 16:00:00,156
+A aula foi muito maçante e pouco interativa.,76,2024-08-13 17:30:00,167
+Não houve discussão de dúvidas durante a aula.,77,2024-08-13 19:00:00,178
+Os conceitos ensinados não foram bem ilustrados.,78,2024-08-14 08:45:00,189
+O material fornecido não corresponde ao que foi abordado na aula.,79,2024-08-14 09:30:00,195
+A aula foi muito teórica e não teve aplicação prática.,80,2024-08-14 10:15:00,202
+Faltou clareza nas explicações dos conceitos complexos.,81,2024-08-14 11:00:00,210
+Não consegui entender o objetivo da aula.,82,2024-08-14 12:30:00,220
+As atividades práticas foram mal estruturadas.,83,2024-08-14 14:00:00,234
+O professor não foi claro ao explicar as tarefas.,84,2024-08-14 15:45:00,245
+A aula de hoje foi muito cansativa e pouco informativa.,85,2024-08-14 17:30:00,156
+Não houve oportunidade para perguntas e esclarecimentos.,86,2024-08-14 19:00:00,167
