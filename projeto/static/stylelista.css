@@ -1,0 +1,56 @@
+/* Resetando estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Centraliza o conteúdo na página */
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(diarioborso.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; /* Fixa a imagem no fundo, mantendo a proporção ao redimensionar a tela */
+}
+
+/* Container principal para a tabela e título */
+.container {
+    text-align: center;
+    background-color: #ffffff; /* Fundo branco sólido para a tabela */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo da tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+/* Estilo das células da tabela */
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+/* Estilo dos cabeçalhos da tabela */
+th {
+    background-color: #f4f4f4;
+}
+
+/* Estilo dos títulos */
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}

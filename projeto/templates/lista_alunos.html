@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename = 'stylelista.css')}}">
+    <title>Lista de alunos</title>
+</head>
+<body>
+   <div class="container">
+       <h1>LISTA DE ALUNOS CADASTRADOS</h1>
+
+        {% if resposta %}
+
+        <table border="2">
+            <tr>
+                <th>RA</th>
+                <th>NOME</th>
+                <th>TEMPO DE ESTUDO</th>
+                <th>RENDA FAMILIAR</th>
+            </tr>
+            {% for aluno in resposta %} 
+            <tr>
+              <td>{{aluno.ra}}</td>
+              <td>{{aluno.nome}}</td>
+              <td>{{aluno.tempoestudo}}</td>
+              <td>R$ {{ aluno.rendafamiliar  }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+
+        {% else %}
+        <h1>Não tem alunos cadastrados!</h1>
+        {% endif %}
+   </div>
+</body>
+</html>

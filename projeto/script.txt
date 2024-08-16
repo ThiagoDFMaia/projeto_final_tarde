@@ -1,0 +1,23 @@
+create database schooltracker;
+use schooltracker;
+
+CREATE TABLE Aluno ( id int PRIMARY KEY auto_increment, ra CHAR(8) not null );
+CREATE TABLE diarioBordo ( texto text not null, id int PRIMARY KEY auto_increment, dataHora datetime, fk_Aluno_id int );
+
+ALTER TABLE diarioBordo ADD CONSTRAINT FK_diarioBordo_2 FOREIGN KEY (fk_Aluno_id) REFERENCES Aluno (id) ON DELETE CASCADE;
+
+ALTER TABLE Aluno ADD CONSTRAINT unique_ra UNIQUE (ra);
+
+CREATE TABLE Avaliacao ( id int PRIMARY KEY auto_increment, nota1 int, nota2 int, nota3 int, nota4 int, fk_Aluno_id int );
+
+
+ALTER TABLE avaliacao ADD CONSTRAINT FK_avaliacao_2 FOREIGN KEY (fk_Aluno_id) REFERENCES Aluno (id) ON DELETE CASCADE;
+
+
+
+
+ALTER TABLE aluno
+ADD COLUMN nome VARCHAR(80) NULL,
+ADD COLUMN tempoestudo INT NOT NULL,
+ADD COLUMN rendafamiliar DECIMAL(10,2) NOT NULL;
+
