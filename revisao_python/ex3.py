@@ -1,5 +1,18 @@
 # programação orientada a objetos - POO
 
+
+'''
+Programação orientada objeto
+- flask e django
+
+
+Programaçao estruturada com OO
+-Flet
+
+Programação funcional
+- lambda
+'''
+
 class Aluno():
     def __init__(self,ch,faltas) :
         self.ch=ch
@@ -13,6 +26,7 @@ class Aluno():
     def aprovado_reprovado (self):
         percent_ch=self.ch * (25/100)
         if self.faltas>percent_ch:
-            return 'reprovado'
+            return 'retido'
         else:
-            return 'aprovado'
+            return 'promovido'
+

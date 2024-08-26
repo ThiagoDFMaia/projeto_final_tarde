@@ -1,8 +1,8 @@
 from ex3 import Aluno
 
-a= Aluno (200,60)
+a= Aluno (200,50)
 
-print(f"Percentual de falta: {a.calcular_faltas()}")
+print(f"Faltas-hs permitidas: {a.calcular_faltas()}")
 
 
-print (f'Aluno: {a.aprovado_reprovado()}')
+print (f'Aluno com {a.faltas} faltas e esta: {a.aprovado_reprovado()}')
