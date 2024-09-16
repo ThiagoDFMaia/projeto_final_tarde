@@ -1,27 +1,104 @@
-
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Texto para Fala</title>
+    <title>Senia</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: relative;
+        }
+        .login-button {
+            position: absolute;
+            top: 50%;
+            right: 20px;
+            transform: translateY(-50%);
+            background-color: #ffffff;
+            border: none;
+            color: #4CAF50;
+            padding: 0.5em 1em;
+            font-size: 0.9em;
+            cursor: pointer;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        .login-button:hover {
+            background-color: #f4f4f4;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+            padding: 0 2em;
+        }
+        form {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 2em;
+            text-align: center;
+            width: 100%;
+            max-width: 500px;
+        }
+        h1 {
+            font-size: 1.5em;
+            margin-bottom: 1em;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 1em 2em;
+            font-size: 1em;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        .content {
+            padding: 2em;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    <h1>Texto para Fala</h1>
-
-    <form method="POST">
-        <textarea name="texto" id="texto" rows="4" cols="50" placeholder="Digite o texto aqui"></textarea>
-        <br>
-        <button type="submit">Gerar Áudio</button>
-    </form>
-
-    <!-- Se houver um arquivo de áudio, mostrar o player -->
-    {% if audio%}
-        <h2>Seu áudio:</h2>
-        <audio controls>
-            <source src="{{audio}}" type="audio/mpeg">
-            Seu navegador não suporta o elemento de áudio.
-        </audio>
-    {% endif %}
+    <header>
+        <h1>Interaja com uma IA</h1>
+        <a href="/login"  class="login-button">Login</a>
+    </header>
+    <div class="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Nulla facilisi. Mauris vel orci eget ligula efficitur facilisis. Sed ac augue arcu. Nam quis feugiat sem. Nulla facilisi. Suspendisse potenti.</p>
+    </div>
+    <div class="container">
+        <form action="/login" method="POST">
+            <h2>Que tal usar a IA para interagir com seus alunos?</h2>
+            <input type="submit" value="Comece agora! É grátis!">
+        </form>
+    </div>
+    <footer>
+        <p>&copy; 2024 Senia. Todos os direitos reservados.</p>
+        <p>Rua Exemplo, 123 - Cidade, País</p>
+    </footer>
 </body>
 </html>
